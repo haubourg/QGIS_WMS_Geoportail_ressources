@@ -1,0 +1,2304 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.0.1-Dufour">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>-240725.23943115625297651</xmin>
+            <ymin>5281974.29823524598032236</ymin>
+            <xmax>556054.34341352107003331</xmax>
+            <ymax>5856169.25471348967403173</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                <srsid>3857</srsid>
+                <srid>3857</srid>
+                <authid>EPSG:3857</authid>
+                <description>WGS 84 / Pseudo Mercator</description>
+                <projectionacronym>merc</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="true" activeLayer="PROTECTEDAREAS_APB20131003182820335">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="GEOPORTAIL WMS vecteur-raster">
+            <legendlayer drawingOrder="0" open="false" checked="Qt::Unchecked" name=" RGE - Bati   (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="_Bati_BDTOPO20130924150022658" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="1" open="false" checked="Qt::Unchecked" name="RGE - Hydro (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="_Hydro_BDTOPO20130924150034530" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="2" open="false" checked="Qt::Unchecked" name="RGE - Orographie (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Orographie_BDTOPO20130924150043922" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="3" open="false" checked="Qt::Unchecked" name="RGE - Reseaux routiers (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Reseaux_routiers__BDTOPO20130924150101426" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="4" open="false" checked="Qt::Unchecked" name="RGE - Transport Energie (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Transport_Energie__BDTOPO20130924150122170" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="5" open="false" checked="Qt::Unchecked" name="RGE - Végétation (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Végétation__BDTOPO20130924150138634" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="6" open="false" checked="Qt::Unchecked" name="RGE - Voies ferrées (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Voies_ferrées__BDTOPO20130924150152434" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="7" open="false" checked="Qt::Unchecked" name="RGE - Zones activités (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Zones_activités__BDTOPO20130924150213235" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendgroup open="true" checked="Qt::PartiallyChecked" name="-"/>
+            <legendlayer drawingOrder="10" open="false" checked="Qt::Unchecked" name="RGE - parcellaire orange (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="parcellaire_orange20130924152213420" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="9" open="false" checked="Qt::Unchecked" name="RGE - parcellaire noir et blanc (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="BDPARCEL_PYR_PNG_WLD20130924152609928" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="8" open="false" checked="Qt::Unchecked" name="RGE - Orthophotos IGN courantes (WMS geoportail)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ORTHOIMAGERY_ORTHOPHOTOS20130930133744916" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="WMTS GEOPORTAIL">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHOIMAGERY.ORTHOPHOTOS2000-2005" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ORTHOIMAGERY_ORTHOPHOTOS2000_200520131003182052502" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ORTHOIMAGERY.ORTHOPHOTOS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ORTHOIMAGERY_ORTHOPHOTOS20131003182045822" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ADMINISTRATIVEUNITS.BOUNDARIES" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ADMINISTRATIVEUNITS_BOUNDARIES20131003181213904" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BUILDINGS.BUILDINGS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="BUILDINGS_BUILDINGS20131003181206168" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CADASTRALPARCELS.PARCELS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="CADASTRALPARCELS_PARCELS20131003181143248" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CADASTRALPARCELS.PARCELS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="CADASTRALPARCELS_PARCELS20131003181149257" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="CADASTRALPARCELS.PARCELS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="CADASTRALPARCELS_PARCELS20131003181157072" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ELEVATION.SLOPES" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ELEVATION_SLOPES20131003181258853" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEOGRAPHICALGRIDSYSTEMS.ADMINISTRATIVEUNITS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="GEOGRAPHICALGRIDSYSTEMS_ADMINISTRATIVEUNITS20131003181307188" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEOGRAPHICALGRIDSYSTEMS.PLANIGN" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="GEOGRAPHICALGRIDSYSTEMS_PLANIGN20131003181318836" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="HYDROGRAPHY.HYDROGRAPHY" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="HYDROGRAPHY_HYDROGRAPHY20131003180942512" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LANDCOVER.FORESTAREAS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="LANDCOVER_FORESTAREAS20131003181327596" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LANDCOVER.SYLVOECOREGIONS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="LANDCOVER_SYLVOECOREGIONS20131003181334012" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LANDCOVER.SYLVOECOREGIONS.ALLUVIUM" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="LANDCOVER_SYLVOECOREGIONS_ALLUVIUM20131003181340523" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LANDUSE.AGRICULTURE2007" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="LANDUSE_AGRICULTURE200720131003181348854" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LANDUSE.AGRICULTURE2008" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="LANDUSE_AGRICULTURE200820131003181358851" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LANDUSE.AGRICULTURE2009" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="LANDUSE_AGRICULTURE200920131003181407322" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LANDUSE.AGRICULTURE2010" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="LANDUSE_AGRICULTURE201020131003181416997" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.BIOS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_BIOS20131003182920260" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.PN" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_PN20131003182922900" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.PN" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_PN20131003182926524" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.PNM" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_PNM20131003182928900" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.PNR" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_PNR20131003182932004" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.RAMSAR" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_RAMSAR20131003182934405" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.RB" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_RB20131003182937107" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.RN" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_RN20131003182939524" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.RNC" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_RNC20131003182942819" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.RNCF" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_RNCF20131003182946068" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.SIC" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_SIC20131003182950019" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.ZNIEFF1" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_ZNIEFF120131003182952979" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.ZNIEFF2" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_ZNIEFF220131003182955490" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.ZPS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_ZPS20131003182958259" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="TRANSPORTNETWORKS.ROADS" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="TRANSPORTNETWORKS_ROADS20131003183001998" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PROTECTEDAREAS.APB" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PROTECTEDAREAS_APB20131003182820335" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="INSPIRE IGN">
+            <legendlayer drawingOrder="11" open="false" checked="Qt::Unchecked" name="US.UtilityAndGovernmentalServices (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="US_UtilityAndGovernmentalServices20130930143018489" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="12" open="false" checked="Qt::Unchecked" name="TN.RoadTransportNetwork (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="TN_RoadTransportNetwork20130930143556417" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="13" open="false" checked="Qt::Unchecked" name="TN.RailTransportNetwork (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="TN_RailTransportNetwork20130930142956906" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="14" open="false" checked="Qt::Unchecked" name="TN.AirTransportNetwork (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="TN_AirTransportNetwork20130930142946595" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="15" open="false" checked="Qt::Unchecked" name="HY.PhysicalWaters  (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="HY_PhysicalWaters20130930142935717" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="16" open="false" checked="Qt::Unchecked" name="BU.Building (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="BU_Building20130930142925727" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="17" open="false" checked="Qt::Unchecked" name="AU.AdministrativeUnit (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="AU_AdministrativeUnit20130930142915929" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendgroup open="true" checked="Qt::PartiallyChecked" name="-"/>
+            <legendlayer drawingOrder="18" open="false" checked="Qt::Unchecked" name="OI.OrthoimageCoverage.HR  wgs84 (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="OI_OrthoimageCoverage_HR20130924163021181" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="19" open="false" checked="Qt::Unchecked" name="OI.OrthoimageCoverage  wgs84 (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="OI_OrthoimageCoverage20130924163013069" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="20" open="false" checked="Qt::Unchecked" name="CP.CadastralParcel wgs84 (WMS INSPIRE)" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="CP_CadastralParcel20130924163006421" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+    </legend>
+    <projectlayers layercount="55">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ADMINISTRATIVEUNITS_BOUNDARIES20131003181213904</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=ADMINISTRATIVEUNITS.BOUNDARIES&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>ADMINISTRATIVEUNITS.BOUNDARIES</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>AU_AdministrativeUnit20130930142915929</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=AU.AdministrativeUnit&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>AU.AdministrativeUnit (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>BDPARCEL_PYR_PNG_WLD20130924152609928</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDPARCEL_PYR-PNG_WLD&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonMotDePasse&amp;styles=bdparcellaire&amp;url=http://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/r/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>BD parcellaire IGN RGE via WMS</title>
+            <abstract>Pas de limite de seuil de zoom. 
+style noir et blanc</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - parcellaire noir et blanc (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="0"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>BUILDINGS_BUILDINGS20131003181206168</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=BUILDINGS.BUILDINGS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>BUILDINGS.BUILDINGS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>BU_Building20130930142925727</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=BU.Building&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/v/wms&amp;username=MonUserNameINSPIRE </datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>BU.Building (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CADASTRALPARCELS_PARCELS20131003181143248</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=CADASTRALPARCELS.PARCELS&amp;password=MonMotDePasse&amp;styles=bdparcellaire&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CADASTRALPARCELS.PARCELS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CADASTRALPARCELS_PARCELS20131003181149257</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=CADASTRALPARCELS.PARCELS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CADASTRALPARCELS.PARCELS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CADASTRALPARCELS_PARCELS20131003181157072</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=CADASTRALPARCELS.PARCELS&amp;password=MonMotDePasse&amp;styles=bdparcellaire_o&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CADASTRALPARCELS.PARCELS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CP_CadastralParcel20130924163006421</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=CP.CadastralParcel&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE </datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CP.CadastralParcel wgs84 (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ELEVATION_SLOPES20131003181258853</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ELEVATION.SLOPES&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>ELEVATION.SLOPES</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>GEOGRAPHICALGRIDSYSTEMS_ADMINISTRATIVEUNITS20131003181307188</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/jpeg&amp;layers=GEOGRAPHICALGRIDSYSTEMS.ADMINISTRATIVEUNITS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>GEOGRAPHICALGRIDSYSTEMS.ADMINISTRATIVEUNITS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>GEOGRAPHICALGRIDSYSTEMS_PLANIGN20131003181318836</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/jpeg&amp;layers=GEOGRAPHICALGRIDSYSTEMS.PLANIGN&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>GEOGRAPHICALGRIDSYSTEMS.PLANIGN</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>HYDROGRAPHY_HYDROGRAPHY20131003180942512</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=HYDROGRAPHY.HYDROGRAPHY&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>HYDROGRAPHY.HYDROGRAPHY</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="3" zoomedOutResampler="bilinear"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>HY_PhysicalWaters20130930142935717</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=HY.PhysicalWaters&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/v/wms&amp;username=MonUserNameINSPIRE </datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>HY.PhysicalWaters  (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LANDCOVER_FORESTAREAS20131003181327596</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=LANDCOVER.FORESTAREAS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LANDCOVER.FORESTAREAS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LANDCOVER_SYLVOECOREGIONS20131003181334012</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=LANDCOVER.SYLVOECOREGIONS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LANDCOVER.SYLVOECOREGIONS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LANDCOVER_SYLVOECOREGIONS_ALLUVIUM20131003181340523</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=LANDCOVER.SYLVOECOREGIONS.ALLUVIUM&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LANDCOVER.SYLVOECOREGIONS.ALLUVIUM</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="0.580392" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LANDUSE_AGRICULTURE200720131003181348854</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=LANDUSE.AGRICULTURE2007&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LANDUSE.AGRICULTURE2007</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LANDUSE_AGRICULTURE200820131003181358851</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=LANDUSE.AGRICULTURE2008&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LANDUSE.AGRICULTURE2008</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LANDUSE_AGRICULTURE200920131003181407322</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=LANDUSE.AGRICULTURE2009&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LANDUSE.AGRICULTURE2009</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LANDUSE_AGRICULTURE201020131003181416997</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=LANDUSE.AGRICULTURE2010&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LANDUSE.AGRICULTURE2010</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>OI_OrthoimageCoverage20130924163013069</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=OI.OrthoimageCoverage&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE </datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>OI.OrthoimageCoverage  wgs84 (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>OI_OrthoimageCoverage_HR20130924163021181</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=OI.OrthoimageCoverage.HR&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>OI.OrthoimageCoverage.HR  wgs84 (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ORTHOIMAGERY_ORTHOPHOTOS2000_200520131003182052502</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTHOIMAGERY.ORTHOPHOTOS2000-2005&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>ORTHOIMAGERY.ORTHOPHOTOS2000-2005</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ORTHOIMAGERY_ORTHOPHOTOS20130930133744916</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;layers=ORTHOIMAGERY.ORTHOPHOTOS&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonMotDePasse&amp;styles=normal&amp;url=http://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/r/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Ortho photos IGN - RGE  via WMS</title>
+            <abstract>Pas de limite de seuil de zoom. </abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Orthophotos IGN courantes (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ORTHOIMAGERY_ORTHOPHOTOS20131003182045822</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTHOIMAGERY.ORTHOPHOTOS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>ORTHOIMAGERY.ORTHOPHOTOS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="20" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Orographie_BDTOPO20130924150043922</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-OROGRAPHIE_FXX_RGF93G&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Orographie IGN BD Topo RGE via WMS</title>
+            <abstract>Points cotés et talus&#xd;
+/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. &#xd;
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Orographie (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_APB20131003182820335</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.APB&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.APB</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_BIOS20131003182920260</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.BIOS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.BIOS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_PN20131003182922900</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.PN&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.PN</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_PN20131003182926524</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.PN&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.PN</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_PNM20131003182928900</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.PNM&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.PNM</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_PNR20131003182932004</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.PNR&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.PNR</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_RAMSAR20131003182934405</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.RAMSAR&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.RAMSAR</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_RB20131003182937107</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.RB&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.RB</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_RN20131003182939524</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.RN&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.RN</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_RNC20131003182942819</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.RNC&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.RNC</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_RNCF20131003182946068</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.RNCF&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.RNCF</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_SIC20131003182950019</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.SIC&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.SIC</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_ZNIEFF120131003182952979</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.ZNIEFF1&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.ZNIEFF1</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_ZNIEFF220131003182955490</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.ZNIEFF2&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.ZNIEFF2</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>PROTECTEDAREAS_ZPS20131003182958259</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=PROTECTEDAREAS.ZPS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>PROTECTEDAREAS.ZPS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Reseaux_routiers__BDTOPO20130924150101426</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-RESEAU_ROUTIER_FXX_RGF93G&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Reseaux routier RGE BDtopo IGN via WMS</title>
+            <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Reseaux routiers (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="0.588235" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="33" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>TN_AirTransportNetwork20130930142946595</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=TN.AirTransportNetwork&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>TN.AirTransportNetwork (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>TN_RailTransportNetwork20130930142956906</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=TN.RailTransportNetwork&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>TN.RailTransportNetwork (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>TN_RoadTransportNetwork20130930143556417</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=TN.RoadTransportNetwork&amp;password=MonUserPasswordINSPIRE&amp;styles=&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>TN.RoadTransportNetwork (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>TRANSPORTNETWORKS_ROADS20131003183001998</id>
+            <datasource>IgnoreGetMapUrl=1&amp;crs=EPSG:3857&amp;featureCount=10&amp;format=image/png&amp;layers=TRANSPORTNETWORKS.ROADS&amp;password=MonUserPasswordGEOPORTAIL&amp;styles=normal&amp;tileMatrixSet=PM&amp;url=http://gpp3-wxs.ign.fr/MaCleGEOPORTAIL/geoportail/wmts?SERVICE%3DWMTS%26REQUEST%3DGetCapabilities&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>TRANSPORTNETWORKS.ROADS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Undefined"/>
+            </customproperties>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Transport_Energie__BDTOPO20130924150122170</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-TRANSPORT_ENERGIE_FXX_RGF93G&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Reseau gaz-electricité RGE IGN Topo via WMS)</title>
+            <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Transport Energie (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="0.764706" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="0" colorizeOn="1" colorizeRed="255" colorizeBlue="0" grayscaleMode="0" saturation="0" colorizeStrength="81"/>
+                <rasterresampler maxOversampling="0"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>US_UtilityAndGovernmentalServices20130930143018489</id>
+            <datasource>crs=EPSG:4326&amp;format=image/png&amp;layers=US.UtilityAndGovernmentalServices&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserPasswordINSPIRE&amp;styles=inspire_common:DEFAULT&amp;url=http://wxs.ign.fr/MaCleINSPIRE/inspire/r/wms&amp;username=MonUserNameINSPIRE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>US.UtilityAndGovernmentalServices (WMS INSPIRE)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Voies_ferrées__BDTOPO20130924150152434</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-VOIES_FERREES_FXX_RGF93G&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Reseaux ferrés IGN RGE BD TOPO via WMS</title>
+            <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. &#xd;
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Voies ferrées (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Végétation__BDTOPO20130924150138634</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-VEGETATION_FXX_RGF93G&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Végétation IGN RGE BD TOPO via WMS</title>
+            <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Végétation (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="170" colorizeOn="1" colorizeRed="0" colorizeBlue="0" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="0"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Zones_activités__BDTOPO20130924150213235</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-ZONE-ACTIVITES_FXX_RGF93G&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Zones d'activité - IGN - RGE BDTOPO via WMS</title>
+            <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Zones activités (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="85" colorizeOn="1" colorizeRed="170" colorizeBlue="255" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="0"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>_Bati_BDTOPO20130924150022658</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-BATI_FXX_RGF93G&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Bati BD Topo IGN via WMS</title>
+            <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
+/!\ fond blanc non transparent.
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername> RGE - Bati   (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="0.901961" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="0"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>_Hydro_BDTOPO20130924150034530</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDTOPO-HYDROGRAPHIE_FXX_RGF93G&amp;password=MonUserNameGEOPORTAIL&amp;styles=&amp;url=https://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/v/wms</datasource>
+            <title>Reseau et surfaces en eau BD Topo RGE IGN via WMS</title>
+            <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
+Pas en bleu!
+interrogeable avec l'outil d'identification</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - Hydro (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="0.94902" alphaBand="0" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="22" contrast="0"/>
+                <huesaturation colorizeGreen="0" colorizeOn="1" colorizeRed="0" colorizeBlue="127" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="0"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>parcellaire_orange20130924152213420</id>
+            <datasource>crs=EPSG:2154&amp;format=image/png&amp;ignoreUrl=GetMap&amp;ignoreUrl=GetFeatureInfo&amp;layers=BDPARCEL_PYR-PNG_WLD&amp;maxHeight=400&amp;maxWidth=400&amp;password=MonMotDePasse&amp;styles=bdparcellaire_o&amp;url=http://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/r/wms&amp;username=MonUserNameGEOPORTAIL</datasource>
+            <title>Bd Parcellaire IGN RGE via WMS</title>
+            <abstract>Pas de limite de seuil de zoom. 
+style orange</abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>RGE - parcellaire orange (WMS geoportail)</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+            <provider>wms</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="0"/>
+            </pipe>
+            <blendMode>6</blendMode>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <WMSContactPerson type="QString"></WMSContactPerson>
+        <WMSOnlineResource type="QString"></WMSOnlineResource>
+        <WMSContactOrganization type="QString"></WMSContactOrganization>
+        <WMSKeywordList type="QStringList">
+            <value></value>
+        </WMSKeywordList>
+        <WFSUrl type="QString"></WFSUrl>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Scales>
+            <ScalesList type="QStringList">
+                <value>1:559082264</value>
+                <value>1:139770566</value>
+                <value>1:279541132</value>
+                <value>1:69885283</value>
+                <value>1:34942641</value>
+                <value>1:17471320</value>
+                <value>1:8735660</value>
+                <value>1:4367830</value>
+                <value>1:2183915</value>
+                <value>1:1091957</value>
+                <value>1:545978</value>
+                <value>1:272989.</value>
+                <value>1:136494</value>
+                <value>1:68247</value>
+                <value>1:34123</value>
+                <value>1:17061</value>
+                <value>1:8530</value>
+                <value>1:4265</value>
+                <value>1:2132</value>
+                <value>1:1066</value>
+                <value>1:533</value>
+                <value>1:266</value>
+                <value>1:1</value>
+            </ScalesList>
+            <useProjectScales type="bool">true</useProjectScales>
+        </Scales>
+        <WMSServiceTitle type="QString"></WMSServiceTitle>
+        <WFSLayers type="QStringList"/>
+        <WMSContactMail type="QString"></WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+            <DegreeFormat type="QString">D</DegreeFormat>
+        </PositionPrecision>
+        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+        <WMSContactPhone type="QString"></WMSContactPhone>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <Measure>
+            <Ellipsoid type="QString">NONE</Ellipsoid>
+        </Measure>
+        <WFSTLayers>
+            <Insert type="QStringList"/>
+            <Update type="QStringList"/>
+            <Delete type="QStringList"/>
+        </WFSTLayers>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <LayerCombinations>
+            <Active type="QString"></Active>
+        </LayerCombinations>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <Macros>
+            <pythonCode type="QString"></pythonCode>
+        </Macros>
+        <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:2154</ProjectCrs>
+            <ProjectCRSID type="int">3857</ProjectCRSID>
+            <ProjectionsEnabled type="int">0</ProjectionsEnabled>
+        </SpatialRefSys>
+        <DefaultStyles>
+            <Fill type="QString"></Fill>
+            <Line type="QString"></Line>
+            <Marker type="QString"></Marker>
+            <RandomColors type="bool">true</RandomColors>
+            <AlphaInt type="int">255</AlphaInt>
+            <ColorRamp type="QString"></ColorRamp>
+        </DefaultStyles>
+        <WMSFees type="QString"></WMSFees>
+        <WMSUrl type="QString"></WMSUrl>
+    </properties>
+</qgis>
