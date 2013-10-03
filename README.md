@@ -1,7 +1,7 @@
 QGIS_WMS_Geoportail_ressources
 ==============================
 
-Tools to facilitate IGN French Geoportail access with QGIS
+Série de ressources pour faciliter l'utilisations des flux WMS WMTS Geoportail dans QGIS. 
 
 Auteur Régis Haubourg 
 regis.haubourg@eau-adour-garonne.fr
