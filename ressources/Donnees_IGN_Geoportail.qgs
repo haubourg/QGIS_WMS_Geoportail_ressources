@@ -139,7 +139,7 @@
     <projectlayers layercount="21">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>AU_AdministrativeUnit20130930142915929</id>
-            <datasource>tiled=400;400,,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
+            <datasource>tiled=400;400,,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>AU.AdministrativeUnit (WMS INSPIRE)</layername>
@@ -194,7 +194,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>BDPARCEL_PYR_PNG_WLD20130924152609928</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,tiled=400;400,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/r/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,tiled=400;400,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/r/wms</datasource>
             <title>BD parcellaire IGN RGE via WMS</title>
             <abstract>Pas de limite de seuil de zoom. 
 style noir et blanc</abstract>
@@ -250,7 +250,7 @@ style noir et blanc</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>BU_Building20130930142925727</id>
-            <datasource>tiled=400;400,,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
+            <datasource>tiled=400;400,,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BU.Building (WMS INSPIRE)</layername>
@@ -305,7 +305,7 @@ style noir et blanc</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>CP_CadastralParcel20130924163006421</id>
-            <datasource>,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/r/wms</datasource>
+            <datasource>,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/r/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>CP.CadastralParcel wgs84 (WMS INSPIRE)</layername>
@@ -360,7 +360,7 @@ style noir et blanc</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>HY_PhysicalWaters20130930142935717</id>
-            <datasource>tiled=400;400,,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
+            <datasource>tiled=400;400,,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>HY.PhysicalWaters  (WMS INSPIRE)</layername>
@@ -415,7 +415,7 @@ style noir et blanc</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>OI_OrthoimageCoverage20130924163013069</id>
-            <datasource>,tiled=400;400,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/r/wms</datasource>
+            <datasource>,tiled=400;400,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/r/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>OI.OrthoimageCoverage  wgs84 (WMS INSPIRE)</layername>
@@ -470,7 +470,7 @@ style noir et blanc</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>OI_OrthoimageCoverage_HR20130924163021181</id>
-            <datasource>,tiled=400;400,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/r/wms</datasource>
+            <datasource>,tiled=400;400,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/r/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>OI.OrthoimageCoverage.HR  wgs84 (WMS INSPIRE)</layername>
@@ -525,7 +525,7 @@ style noir et blanc</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHOIMAGERY_ORTHOPHOTOS20130930133744916</id>
-            <datasource>tiled=400;400,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/r/wms</datasource>
+            <datasource>tiled=400;400,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/r/wms</datasource>
             <title>Ortho photos IGN - RGE  via WMS</title>
             <abstract>Pas de limite de seuil de zoom. </abstract>
             <layername>RGE - Orthophotos IGN courantes (WMS geoportail)</layername>
@@ -580,7 +580,7 @@ style noir et blanc</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Orographie_BDTOPO20130924150043922</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Orographie IGN BD Topo RGE via WMS</title>
             <abstract>Points cotés et talus
 /!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
@@ -637,7 +637,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Reseaux_routiers__BDTOPO20130924150101426</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Reseaux routier RGE BDtopo IGN via WMS</title>
             <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
 interrogeable avec l'outil d'identification</abstract>
@@ -693,7 +693,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>TN_AirTransportNetwork20130930142946595</id>
-            <datasource>tiled=400;400,,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
+            <datasource>tiled=400;400,,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>TN.AirTransportNetwork (WMS INSPIRE)</layername>
@@ -748,7 +748,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>TN_RailTransportNetwork20130930142956906</id>
-            <datasource>tiled=400;400,,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
+            <datasource>tiled=400;400,,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>TN.RailTransportNetwork (WMS INSPIRE)</layername>
@@ -803,7 +803,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>TN_RoadTransportNetwork20130930143556417</id>
-            <datasource>username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
+            <datasource>username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>TN.RoadTransportNetwork (WMS INSPIRE)</layername>
@@ -858,7 +858,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Transport_Energie__BDTOPO20130924150122170</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Reseau gaz-electricité RGE IGN Topo via WMS)</title>
             <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
 interrogeable avec l'outil d'identification</abstract>
@@ -914,7 +914,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>US_UtilityAndGovernmentalServices20130930143018489</id>
-            <datasource>tiled=400;400,,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
+            <datasource>tiled=400;400,,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/y7d6sba0vw9vqp19s6ewcbjt/inspire/v/wms</datasource>
             <title></title>
             <abstract></abstract>
             <layername>US.UtilityAndGovernmentalServices (WMS INSPIRE)</layername>
@@ -969,7 +969,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Voies_ferrées__BDTOPO20130924150152434</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Reseaux ferrés IGN RGE BD TOPO via WMS</title>
             <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
 interrogeable avec l'outil d'identification</abstract>
@@ -1025,7 +1025,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Végétation__BDTOPO20130924150138634</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Végétation IGN RGE BD TOPO via WMS</title>
             <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
 interrogeable avec l'outil d'identification</abstract>
@@ -1081,7 +1081,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Zones_activités__BDTOPO20130924150213235</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Zones d'activité - IGN - RGE BDTOPO via WMS</title>
             <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
 interrogeable avec l'outil d'identification</abstract>
@@ -1137,7 +1137,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_Bati_BDTOPO20130924150022658</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,tiled=400;400,username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,tiled=400;400,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Bati BD Topo IGN via WMS</title>
             <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
 /!\ fond blanc non transparent.
@@ -1194,7 +1194,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_Hydro_BDTOPO20130924150034530</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,IgnoreGetMapUrl=1&amp;username=geocatalogue,password=geocatalogue,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,IgnoreGetMapUrl=1&amp;username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=https://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/v/wms</datasource>
             <title>Reseau et surfaces en eau BD Topo RGE IGN via WMS</title>
             <abstract>/!\ seuil de zoom 1/26 500ème, impression limitée au 1/11 000ème. 
 Pas en bleu!
@@ -1251,7 +1251,7 @@ interrogeable avec l'outil d'identification</abstract>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>parcellaire_orange20130924152213420</id>
-            <datasource>ignoreUrl=GetMap;GetFeatureInfo,tiled=400;400,username=geocatalogue,password=geocatalogue,url=http://wxs.ign.fr/6gu25xotywnfjgtsv68ojf48/geoportail/r/wms</datasource>
+            <datasource>ignoreUrl=GetMap;GetFeatureInfo,tiled=400;400,username=MonUserNameGEOPORTAIL,password=MonUserPasswordGEOPORTAIL ,url=http://wxs.ign.fr/MaCleGEOPORTAIL/geoportail/r/wms</datasource>
             <title>Bd Parcellaire IGN RGE via WMS</title>
             <abstract>Pas de limite de seuil de zoom. 
 style orange</abstract>
