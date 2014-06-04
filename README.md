@@ -42,7 +42,6 @@ Pensez à régler vos paramètres de proxy si besoin. Il peut subsister des erre
 
 Ajouter le projet QGIS de votre version dans la liste. et c'est tout!
 
-
 Les évolutions coté services semblent signalées sur le blog de l'API ign : http://api.ign.fr/blog Il manque juste un flux rss
 
 
